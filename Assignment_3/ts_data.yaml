@@ -1,0 +1,14 @@
+# Dataset configuration for YOLOv8
+
+# paths to training and validation dataset text files
+train: /research/rkhithani/assignment3/archive/train.txt  # Path to the training set text file
+val: /research/rkhithani/assignment3/archive/test.txt   # Path to the validation set text file
+
+# number of classes
+nc: 4  # Number of classes in the dataset
+
+# path to class names file
+names: ['prohibitory', 'danger','mandatory','other']
+
+# backup folder where trained weights will be saved
+backup: backup  # Path to save model weights during training
